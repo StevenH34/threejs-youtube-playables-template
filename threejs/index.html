@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <link rel="icon" type="image/png" href="/assets/favicon.ico" />
+		<title>ThreeJS YouTube Playables Template</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <!-- Load the YouTube Playables SDK.  -->
+        <script src="https://www.youtube.com/game_api/v1"></script>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+    <script type="importmap">
+			{
+				"imports": {
+					"three": "../build/three.module.js",
+					"three/addons/": "./jsm/"
+				}
+			}
+		</script>
+		<div id="overlay">
+			<button id="startButton">Play</button>
+		</div>
+    <canvas id="canvas"></canvas>
+		<script type="module" src="/src/main.js"></script>
+	</body>
+</html>
