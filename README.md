@@ -1,18 +1,20 @@
-## Description
+# Description
 
-Creating a YouTube Playables Template for Three.js.
+YouTube Playables template for Three.js.
 
-Template generates a cube and plays music.
+Template generates a 3D cube and plays music.
 
 Learn more about YouTube Playables: https://developers.google.com/youtube/gaming/playables
 
-TODO: Makes sure the YouTube Playables SDK is loaded properly: https://developers.google.com/youtube/gaming/playables/reference/sdk
-
 ## Run
-
+```
 cd threejs
 npm install
 npx vite
+```
+
+## TODO
+Makes sure the YouTube Playables SDK is loaded properly: https://developers.google.com/youtube/gaming/playables/reference/sdk
 
 ## Assets
 
